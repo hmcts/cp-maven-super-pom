@@ -5,6 +5,7 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 
 ## [Unreleased]
 - 2027.06.11 
+  - Update the publish GitHub Action to use the release tag of the repository to dynamically set the version of the super POM via the revision variable.
   - Move the super POM version to property.
   - addition of GitHub Action to publish to DTS Azure Artefacts. This will enable consumers to use the super POM to build in the Open.
 - Github migration to HMCTS Organisation

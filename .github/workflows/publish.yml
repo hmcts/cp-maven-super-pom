@@ -5,6 +5,8 @@ on:
     branches:
       - master
       - main
+  release:
+    types: [published]
 
 jobs:
   publish:
@@ -39,5 +41,19 @@ jobs:
           </settings>
           EOF
 
+      - name: Determine version from release or fallback
+        id: determine_version
+        run: |
+          if [[ "${{ github.event_name }}" == "release" ]]; then
+            VERSION="${GITHUB_REF##*/}"
+          else
+            LATEST_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "v17.0.0")
+            VERSION=$(echo "$LATEST_TAG" | awk -F. '{$NF+=1; print $1"."$2"."$3}')
+            VERSION="${VERSION}-SNAPSHOT"
+          fi
+          VERSION="${VERSION#v}"
+          echo "revision=$VERSION"
+          echo "revision=$VERSION" >> $GITHUB_ENV
+
       - name: Publish using Azure Artifacts profile
-        run: mvn --batch-mode clean deploy -Pazure-artifacts-pkg
+        run: mvn --batch-mode clean deploy -Pazure-artifacts-pkg -Drevision=${{ env.revision }}
