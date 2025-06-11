@@ -6,7 +6,7 @@
 
     <groupId>uk.gov.justice</groupId>
     <artifactId>maven-super-pom</artifactId>
-    <version>17.0.1-SNAPSHOT</version>
+    <version>${revision}</version>
     <packaging>pom</packaging>
 
     <name>Maven Super Pom</name>
@@ -18,6 +18,7 @@
     </organization>
 
     <properties>
+        <revision>17.0.1-SNAPSHOT</revision>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
