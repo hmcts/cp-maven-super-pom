@@ -44,15 +44,4 @@
         </repository>
     </distributionManagement>
 
-    <profiles>
-        <profile>
-            <id>azure-artifacts-pkg</id>
-            <distributionManagement>
-                <repository>
-                    <id>dts-public-azure-artifacts</id>
-                    <url>https://pkgs.dev.azure.com/hmcts/Artifacts/_packaging/hmcts-lib/maven/v1</url>
-                </repository>
-            </distributionManagement>
-        </profile>
-    </profiles>
 </project>

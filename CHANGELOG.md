@@ -4,6 +4,9 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+- Add license file
+- Update README.md to include versioning strategy
+- Remove redundant profile from `pom.xml`
 - Github migration to HMCTS Organisation
 
 ## [17.0.0] - 2023-05-05
