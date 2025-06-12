@@ -23,14 +23,6 @@ This project follows the HMCTS framework versioning strategy, supporting feature
   - Patch version is incremented on an existing release branch or tag.
   - Version format remains consistent with final releases (e.g., `17.101.2`).
 
-### Automation Details
-
-The version is dynamically set during CI via GitHub Actions:
-
-- For `release` events: The tag (e.g., `release-17.101.0`) is parsed and passed as `revision=17.101.0`.
-- For non-release pushes: The most recent `release-<version>` tag is found, the patch is incremented, and `-SNAPSHOT` is appended (e.g., `17.101.3-SNAPSHOT`).
-- The resolved version is passed to Maven using the `-Drevision=...` flag.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
