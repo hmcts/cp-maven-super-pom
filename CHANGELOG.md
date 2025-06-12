@@ -4,7 +4,6 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
-- 2027.06.11 addition of GitHub Action to publish to DTS Azure Artefacts. This will enable consumers to use the super POM to build in the Open.
 - Github migration to HMCTS Organisation
 
 ## [17.0.0] - 2023-05-05
