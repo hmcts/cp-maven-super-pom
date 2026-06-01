@@ -9,6 +9,11 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 - Remove redundant profile from `pom.xml`
 - Github migration to HMCTS Organisation
 
+## [21.0.0-SNAPSHOT] - 2026-03-26
+### Changed
+- Upgraded to Java 21 and Jakarta EE 10
+- Bumped version number to `21.0.0-SNAPSHOT`
+
 ## [17.0.0] - 2023-05-05
 ### Changed
 - Release of Java 17 version
