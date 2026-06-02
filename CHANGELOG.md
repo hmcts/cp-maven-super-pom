@@ -4,12 +4,8 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
-- Add license file
-- Update README.md to include versioning strategy
-- Remove redundant profile from `pom.xml`
-- Github migration to HMCTS Organisation
 
-## [21.0.0-M1] - 2026-06-01
+## [21.0.0-M2] - 2026-06-02
 ### Changed
 - Upgraded to Java 21; enforced minimum JVM version 21 via Maven enforcer
 - Bumped version to `21.0.0-M1` for the 17.104.x Java 21 release line
