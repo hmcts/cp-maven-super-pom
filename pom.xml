@@ -6,7 +6,7 @@
 
     <groupId>uk.gov.justice</groupId>
     <artifactId>maven-super-pom</artifactId>
-    <version>25.104.0</version>
+    <version>25.104.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Maven Super Pom</name>
