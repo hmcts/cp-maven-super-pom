@@ -4,15 +4,20 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
-- Add license file
-- Update README.md to include versioning strategy
-- Remove redundant profile from `pom.xml`
-- Github migration to HMCTS Organisation
 
-## [21.0.0-SNAPSHOT] - 2026-03-26
+## [25.104.0] - 2026-09-07
+### Added
+- License file
+
 ### Changed
-- Upgraded to Java 21 and Jakarta EE 10
-- Bumped version number to `21.0.0-SNAPSHOT`
+- Moved to the Java 25 / WildFly 40 release line and adopted the `25.104.0` version scheme,
+  consolidating the `25.104.0-M1` milestone and the intermediate, never-released Java 21 /
+  Jakarta EE 10 step
+- Updated `README.md` to include the versioning strategy
+- Migrated the repository to the HMCTS GitHub organisation
+
+### Removed
+- Redundant profile from `pom.xml`
 
 ## [17.0.0] - 2023-05-05
 ### Changed
