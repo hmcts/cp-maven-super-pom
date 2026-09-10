@@ -3,7 +3,31 @@ All notable changes to this project will be documented in this file, which follo
 on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 [Semantic Versioning](http://semver.org/).
 
-## [Unreleased]
+## [25.104.1] - 2026-09-10
+### Changed
+Updated version properties for the following pugins to make them consistent, declared here so that all inheriting poms share a single
+value:
+- Updated Liquibase to 5.0.3
+- Updated Build Helper Maven Plugin to 3.6.0
+- Updated Buildnumber Maven Plugin to 3.2.0
+- Updated Maven Assembly Plugin to 3.7.1
+- Updated Maven Clean Plugin to 3.2.0
+- Updated Maven Compiler Plugin to 3.15.0
+- Updated Maven Dependency Plugin to 3.6.1
+- Updated Maven Deploy Plugin to 3.1.4
+- Updated Maven Enforcer Plugin to 3.4.1
+- Updated Maven Failsafe Plugin to 3.5.6
+- Updated Maven Install Plugin to 3.1.4
+- Updated Maven Jar Plugin to 3.5.0
+- Updated Maven Javadoc Plugin to 3.6.3
+- Updated Maven Resources Plugin to 3.4.0
+- Updated Maven Site Plugin to 3.12.1
+- Updated Maven Source Plugin to 3.3.1
+- Updated Maven Surefire Plugin to 3.5.6
+- Updated Maven Wagon to 3.5.3
+- Updated Maven WAR Plugin to 3.5.1
+- Updated PIT Mutation Testing Plugin to 1.19.1
+- Updated Versions Maven Plugin to 2.16.2
 
 ## [25.104.0] - 2026-09-07
 ### Added
